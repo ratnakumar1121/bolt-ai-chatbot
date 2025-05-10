@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+# Replace 'myenv/' with the actual name of your virtual environment folder if different
+# Common names: venv/, .venv/, env/, myenv/
+myenv/
+venv/
+.venv/
+env/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Streamlit specific (if you ever create local secrets for testing)
+.streamlit/secrets.toml
